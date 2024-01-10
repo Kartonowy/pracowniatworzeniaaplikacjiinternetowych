@@ -1,0 +1,39 @@
+body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+.cv {
+    width: 50%;
+    height: 300px;
+}
+aside {
+    width: 50%;
+    height: 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+aside p {
+    font-size: 40px;
+}
+table {
+    border-collapse: collapse;
+    height: 30px;
+    font-size: 70px;
+}
+
+main {
+    width: 100%;
+}
+.placeholder {
+    background: #213769;    
+}
+.cardwrapper {
+    display: flex;
+    flex-flow: wrap row;
+}
+.cardwrapper * {
+    padding: 10px;
+    border-radius: 35px;
+}
