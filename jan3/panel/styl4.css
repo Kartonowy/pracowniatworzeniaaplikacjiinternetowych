@@ -1,0 +1,35 @@
+* {
+    font-family: Arial, Helvetica, sans-serif;
+}
+body {
+    margin: 0;
+    display: flex;
+    flex-flow: wrap row;
+}
+
+.baner,
+footer {
+    background-color: #AF4448;
+    color: white;
+    text-align: center;
+    height: 20px;
+    width: 100%;
+}
+
+aside, article {
+    background-color: #FFA4A2;
+    height: 650px;
+    width: 50%;
+    margin: 0;
+}
+h4 {
+    padding: 0;
+}
+
+input[type='submit']
+{
+    background-color: #AF4448;
+    color: white;
+    padding: 5px;
+    margin: 10px;
+}

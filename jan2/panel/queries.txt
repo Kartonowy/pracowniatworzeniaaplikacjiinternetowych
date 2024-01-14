@@ -1,0 +1,6 @@
+-- SELECT id, imie, nazwisko, rok_urodzenia, zdjecie from osoby LIMIT 30
+-- SELECT imie, nazwisko, rok_urodzenia, opis, zdjecie, nazwa from osoby join hobby on hobby.id = osoby.Hobby_id where osoby.id = 10
+
+-- SELECT ROUND(AVG(rok_urodzenia)) as 'średni', MAX(rok_urodzenia) as 'najwyższy', MIN(rok_urodzenia) as 'najniższy' from osoby
+
+-- UPDATE osoby SET opis = "flattermune gaming" WHERE osoby.Hobby_id = 4
