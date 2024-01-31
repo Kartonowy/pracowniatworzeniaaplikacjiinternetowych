@@ -1,0 +1,7 @@
+SELECT nazwisko, rok_urodzenia from matematycy where rok_urodzenia < 1800;
+
+SELECT id, imie, nazwisko from matematycy where liczba_publikacji BETWEEN 5 and  20
+
+select liczba_publikacji from matematycy where rok_urodzenia > 1800 order by 1 limit 1
+
+DROP TABLE typy;

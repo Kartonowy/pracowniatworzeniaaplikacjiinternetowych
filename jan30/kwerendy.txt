@@ -1,0 +1,7 @@
+SELECT dataZadania, wpis from zadania where miesiac = 'sierpien' 
+
+SELECT miesiac, rok from zadania where dataZadania LIKE '2020-08-07'
+
+select miesiac, count(wpis) from zadania where wpis LIKE 'Weterynarz%' group by 1
+
+UPDATE zadania set wpis = 'Wycieczka: Zalew Mietkowski' where dataZadania LIKE '2020-08-09'
