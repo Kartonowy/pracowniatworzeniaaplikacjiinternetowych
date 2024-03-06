@@ -1,0 +1,9 @@
+SELECT cena, pojemnosc from farby where kolor like "czerwony";
+
+select kolor, SUM(cena / pojemnosc) as 'cena za litr' from farby group by kolor;
+
+select kolor, liczba_puszek from malowanie
+join farby on farby.id_farby = malowanie.id_farby
+where id_pomieszczenia = 3;
+
+CREATE VIEW pomieszczenie1 as select id_sciany, id_farby, liczba_puszek from malowanie where id_pomieszczenia = 1;

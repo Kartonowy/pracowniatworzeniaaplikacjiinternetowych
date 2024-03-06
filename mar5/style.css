@@ -1,7 +1,9 @@
 * {
 }
 :root {
-    --funny: #fffefe
+    --funny: #fffefe;
+    --main-color: #0000ff;
+    --bg-color: #cccbff;
 }
 header {
     width: 100%;
@@ -25,7 +27,8 @@ body {
 }
 
 aside {
-    background: lightgray;
+    background: var(--bg-color);
+    /*  */
     height: 60vh;
 }
 
