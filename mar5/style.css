@@ -1,0 +1,58 @@
+* {
+}
+:root {
+    --funny: #fffefe
+}
+header {
+    width: 100%;
+    display: flex;
+    flex-flow: wrap column;
+    align-items: center;
+    padding-bottom: 2.5vh;
+    background: var(--funny);
+}
+
+header #beauty-line {
+    height: 4px;
+    width: 90%;
+    background: var(--main-color);
+}
+
+body {
+    display: flex;
+    flex-flow: row wrap;
+    margin: 0;
+}
+
+aside {
+    background: lightgray;
+    height: 60vh;
+}
+
+aside:first-of-type {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-flow: column wrap;
+}
+
+form {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: center;
+    align-items: center;
+
+}
+
+aside:last-of-type {
+    width: 60%;
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+}
+.lang {
+    display: flex;
+    flex-flow: column ;
+    align-items: center;
+}

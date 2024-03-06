@@ -1,0 +1,9 @@
+przygotuj strone typuu onepage na ktorej uzytkownik bedzie mogl przetlumacyzc nazwy kolorow. przygotuj baze w ktorej stworzysz min 10 rekordow 
+col polski ang whatever
+uzytkwik po odpaleniu dostaje mozliwosc wpisania nazwy koloru i po potwierdzeniu wpisanej nazwy nastepuje tlumcazenie lcueless 
+i wypisze w innych jezykach
+jesli nie ma slwoa informujemy uzytkonwika i dajemy mozliowsc dodania slowa wrac z proponowanymi tlumaczneiami??????????????????????????
+
+wzorzec do dla kazdego jeyzka
+
+ocenie podlega skrypt php, baza i css
