@@ -1,0 +1,12 @@
+SELECT zwierzeta.id, gatunek, wystepowanie from zwierzeta 
+join odzywianie on zwierzeta.Odzywianie_id = odzywianie.id
+where odzywianie.rodzaj = "wszystkozerny"
+
+select gatunek, rodzaj from zwierzeta
+join odzywianie on zwierzeta.Odzywianie_id = odzywianie.id
+
+SELECT count(*) as 'liczba' from zwierzeta 
+join odzywianie on odzywianie.id = zwierzeta.Odzywianie_id
+where rodzaj = "drapieznik"
+
+create user 'JanKowalski'@'localhost' IDENTIFIED BY 'J4nKow'
