@@ -1,11 +1,20 @@
-* {
-}
 :root {
     --funny: #fffefe;
     --main-color: #0000ff;
-    --bg-color: #cccbff;
+    --main-bg: #f0f0f0;
 }
-header {
+
+h1:last-of-type, div > h2{
+    font-size: 2.1em;
+}
+
+ div > h3 {
+    color: var(--main-color);
+    font-size: 1.6em;
+    margin: 0;
+ }
+
+header, footer {
     width: 100%;
     display: flex;
     flex-flow: wrap column;
@@ -14,11 +23,16 @@ header {
     background: var(--funny);
 }
 
-header #beauty-line {
+footer {
+    padding-top: 5.5vh;
+}
+
+.beauty-line {
     height: 4px;
     width: 90%;
     background: var(--main-color);
 }
+
 
 body {
     display: flex;
@@ -27,9 +41,8 @@ body {
 }
 
 aside {
-    background: var(--bg-color);
-    /*  */
-    height: 60vh;
+    background: var(--main-bg);
+    height: 75vh;
 }
 
 aside:first-of-type {
@@ -40,12 +53,23 @@ aside:first-of-type {
     flex-flow: column wrap;
 }
 
-form {
+.newly {
+    display: flex;
+    flex-flow: column wrap;
+    justify-content: space-evenly;
+    height: 25vh;
+    align-items: center;
+}
+
+p {
+    text-align: center;
+}
+
+form:not(.newly) {
     display: flex;
     flex-flow: column wrap;
     justify-content: center;
     align-items: center;
-
 }
 
 aside:last-of-type {
